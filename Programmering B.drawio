@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="FdKnK0SVE-rsFo9KYpga">
+    <mxGraphModel dx="1281" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-3" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V6iqDv4QaLP-SonEnv8g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Start spil knap" vertex="1">
+          <mxGeometry height="60" width="120" x="367.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-5" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V6iqDv4QaLP-SonEnv8g-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;Var = 100&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Vælg tilfældig ord fra array" vertex="1">
+          <mxGeometry height="60" width="115" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-7" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V6iqDv4QaLP-SonEnv8g-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 110&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Opbygge UI med skrivekasser&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="368" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-10" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V6iqDv4QaLP-SonEnv8g-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 120&lt;br&gt;&lt;br&gt;Bruger kan indtaste bogstaver" vertex="1">
+          <mxGeometry height="60" width="120" x="367.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-12" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V6iqDv4QaLP-SonEnv8g-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 130&lt;br&gt;&lt;br&gt;Bruger godkender indtastet ord" vertex="1">
+          <mxGeometry height="60" width="120" x="368" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-7" edge="1" parent="1" source="V6iqDv4QaLP-SonEnv8g-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MTHCDzYdkI3VHD6LbE96-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6iqDv4QaLP-SonEnv8g-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 130&lt;br&gt;&lt;br&gt;Tjekker ord i API" vertex="1">
+          <mxGeometry height="60" width="120" x="367.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-4" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MTHCDzYdkI3VHD6LbE96-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-6" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MTHCDzYdkI3VHD6LbE96-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Var = 140&lt;br&gt;&lt;br&gt;Hvis ordet er et&amp;nbsp;&lt;div&gt;ord&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="122" x="367" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-9" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MTHCDzYdkI3VHD6LbE96-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 150, True&lt;br&gt;&lt;br&gt;Marker bogstaverne med farve&lt;br&gt;Antal gættet ord +1" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 145, False&lt;br&gt;&lt;br&gt;Man må prøve igen, Sæt var til 120" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-11" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MTHCDzYdkI3VHD6LbE96-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-16" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MTHCDzYdkI3VHD6LbE96-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Var =160&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hvis alle bokstaver er grønne&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="515" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var = 190, True&lt;br&gt;&lt;br&gt;Win screen&lt;br&gt;Start forfra knap" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-22" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-24" edge="1" parent="1" source="MTHCDzYdkI3VHD6LbE96-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MTHCDzYdkI3VHD6LbE96-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="1190" />
+            </Array>
+            <mxPoint x="310" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Var = 165, False&lt;br&gt;&lt;br&gt;Hvis der er gættet mere end 5 ord&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="145" x="367" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var 180, True&lt;br&gt;&lt;br&gt;Game over screen&lt;br&gt;Start forfra knap" vertex="1">
+          <mxGeometry height="60" width="120" x="512" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Var 170, False&lt;br&gt;&lt;br&gt;Prøv igen var = 120" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=light-dark(#000000,#00FF00);fillColor=none;" value="" vertex="1">
+          <mxGeometry height="530" width="400" x="225" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=light-dark(#000000,#FF0000);dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="320" width="310" x="210" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="1360" as="sourcePoint" />
+            <mxPoint x="800" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-28" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="1360" as="sourcePoint" />
+            <mxPoint x="800" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-29" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="840" as="sourcePoint" />
+            <mxPoint x="800" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MTHCDzYdkI3VHD6LbE96-30" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=light-dark(#000000,#0000FF);strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="840" as="sourcePoint" />
+            <mxPoint x="200" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
