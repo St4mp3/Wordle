@@ -1,44 +1,49 @@
-// Simple grid: 6 rows, 5 squares per row
+const WORDLIST_URL =
+  "https://raw.githubusercontent.com/fraabye/Danish-wordlists/master/20200419-Danish-words.txt";
+
+const FREQ_URL =
+  "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2016/da/da_50k.txt";
+
 const COLS = 5;
 const ROWS = 6;
 const SIZE = 64;
 const GAP = 10;
 
-// store letters later (for Wordle)
-let letters = [];
+let words5 = [];
+let wordsSet = new Set();
+let target = "";
+
+let currentGuess = "";
+let row = 0;
+let gameOver = false;
+let statusText = "Loader...";
+
+let guesses = [];
+let scores = [];
+
+let shakeFrames = 0;
 
 function setup() {
-  createCanvas(400, 600);
+  board = new DrawBoard();
+  api = new Api();
+  score = new Score();
+  bruger = new Bruger();
 
-  // make empty 2D array
-  for (let r = 0; r < ROWS; r++) {
-    letters[r] = [];
-    for (let c = 0; c < COLS; c++) {
-      letters[r][c] = "";
-    }
-  }
+  createCanvas(420, 620);
+  textAlign(CENTER, CENTER);
+  textFont("Arial");
+
+  board.makeBoard();
+  api.wordLists();
 }
 
 function draw() {
   background(220);
 
-  let startX = 20;
-  let startY = 80;
+  board.drawBoard();
+  board.text();
+}
 
-  for (let r = 0; r < ROWS; r++) {
-    for (let c = 0; c < COLS; c++) {
-      let x = startX + c * (SIZE + GAP);
-      let y = startY + r * (SIZE + GAP);
-
-      rect(x, y, SIZE, SIZE);
-
-      // draw letter if there is one
-      let letter = letters[r][c];
-      if (letter !== "") {
-        textAlign(CENTER, CENTER);
-        textSize(32);
-        text(letter, x + SIZE/2, y + SIZE/2);
-      }
-    }
-  }
+function keyPressed() {
+  bruger.keyPressed();
 }
