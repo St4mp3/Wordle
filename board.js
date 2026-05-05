@@ -31,7 +31,6 @@ class DrawBoard {
 
         strokeWeight(2);
 
-        // simpelt design som kode 1, men med Wordle-farver
         if (score === "correct") {
           fill(46, 204, 113);
           stroke(46, 204, 113);
